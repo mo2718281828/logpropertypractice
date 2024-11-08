@@ -1,0 +1,140 @@
+/* Add these styles or update existing ones */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  /* Remove overflow hidden to allow scrolling if needed */
+}
+
+.mode-selection {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.mode-selection h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.mode-btn {
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 18px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mode-btn:hover {
+  background-color: #1976D2;
+}
+
+.container {
+  display: flex;
+  width: 85%;
+  margin: 0 auto; /* Center the container */
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.middle-column {
+  width: 60%;
+  text-align: center;
+  position: relative;
+}
+
+.question-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.question-section h1 {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.options-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.options-list button {
+  width: 80%;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.options-list button:hover {
+  background-color: #45a049;
+}
+
+.next-btn {
+  padding: 10px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.next-btn:hover {
+  background-color: #1976D2;
+}
+
+.right-column {
+  width: 25%;
+  text-align: left;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td.green {
+  color: green;
+}
+
+td.red {
+  color: red;
+}
+
+td.score {
+  text-align: center;
+  font-weight: bold;
+}
+
+.end-game-btn {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.end-game-btn:hover {
+  background-color: #d32f2f;
+}
