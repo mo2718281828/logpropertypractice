@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Logarithm Properties Practice Game</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+</head>
+<body>
+  <div id="modeSelection" class="mode-selection">
+    <h1>Select Game Mode</h1>
+    <h3>For students:</h3>
+    <button id="randomModeBtn" class="mode-btn"><p>Random Mode</p></button>
+    <br><br><br>
+    <p>For teachers, professors, and developers:</p>
+    <button id="testingModeBtn" class="mode-btn">&lt;debug mode&gt;</button>
+  </div>
+
+  <div id="gameContainer" class="container" style="display: none;">
+    <div class="middle-column">
+      <div class="question-section">
+        <h1 id="questionText">Simplify the logarithmic expression:</h1>
+        <button id="nextQuestionBtn" class="next-btn" style="display: none;">Next Question</button>
+      </div>
+      <div id="options" class="options-list"></div>
+    </div>
+    <div class="right-column">
+      <h2>Score Sheet</h2>
+      <table id="scoreSheet">
+        <thead>
+          <tr>
+            <th>Correct Answer</th>
+            <th>Change</th>
+            <th>Score</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <button id="endGameBtn" class="end-game-btn">End Game</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
